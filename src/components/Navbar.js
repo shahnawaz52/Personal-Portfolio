@@ -19,9 +19,17 @@ const Navbar = () => {
                 </button>
             </div>
             <div className="links">
-                <Link to="/"> Home </Link>
-                <Link to="/projects"> Projects </Link>
-                <Link to="/experience"> Experience </Link>
+                {/* <ul> */}
+                    {/* <li> */}
+                        <Link to="/"> Home </Link>
+                    {/* </li> */}
+                    {/* <li> */}
+                        <Link to="/projects"> Projects </Link>
+                    {/* </li> */}
+                    {/* <li> */}
+                        <Link to="/experience"> Experience </Link>
+                    {/* </li> */}
+                {/* </ul> */}
             </div>
         </div>
     )
