@@ -11,7 +11,7 @@ const Home = () => {
                 <img className="my-image" src={window.location.origin + '/20220821_152113__01.jpg'} alt="" height="200px"/>
             </div>
             <div className="about">
-                <div classname="intro">
+                <div>
                     <h1 className="typed">Hi, My Name is Shahnawaz Idariya</h1>
                 </div>
                 <div className="prompt">
@@ -22,7 +22,7 @@ const Home = () => {
                     <IconButton component="a" href="https://github.com/shahnawaz52" target="_blank">
                         <GitHubIcon className="icon" />
                     </IconButton >
-                    <IconButton component="a" href="https://mail.google.com/mail/u/2/#inbox" target="_blank">
+                    <IconButton component="a" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shahnawaz.idariya@sjsu.edu" target="_blank">
                         <EmailIcon className="icon" />
                     </IconButton>
                 </div>

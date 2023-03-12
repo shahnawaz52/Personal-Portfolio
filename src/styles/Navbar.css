@@ -94,10 +94,6 @@
   .navbar a {
     width: 70px;
   }
-  .navbar li {
-    display: block;
-    text-align: center;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -106,6 +102,10 @@
   }
   #close a {
     display: none;
+  }
+  .navbar li {
+    display: block;
+    text-align: center;
   }
 }
 
