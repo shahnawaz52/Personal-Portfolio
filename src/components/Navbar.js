@@ -19,19 +19,17 @@ const Navbar = () => {
                 </button>
             </div>
             <div className="links">
-                {/* <ul> */}
-                    {/* <li> */}
-                    <div>
+                <ul>
+                    <li>
                         <Link to="/"> Home </Link>
-                        </div>
-                    {/* </li> */}
-                    {/* <li> */}
+                    </li>
+                    <li>
                         <Link to="/projects"> Projects </Link>
-                    {/* </li> */}
-                    {/* <li> */}
+                    </li>
+                    <li>
                         <Link to="/experience"> Experience </Link>
-                    {/* </li> */}
-                {/* </ul> */}
+                    </li>
+                </ul>
             </div>
         </div>
     )

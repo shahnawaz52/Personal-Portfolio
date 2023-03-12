@@ -11,7 +11,7 @@ const Home = () => {
                 <img className="my-image" src={window.location.origin + '/20220821_152113__01.jpg'} alt="" height="200px"/>
             </div>
             <div className="about">
-                <div>
+                <div classname="intro">
                     <h1 className="typed">Hi, My Name is Shahnawaz Idariya</h1>
                 </div>
                 <div className="prompt">
@@ -39,13 +39,13 @@ const Home = () => {
                     <li className="item">
                         <h2>Tools/Frameworks</h2>
                         <span>
-                            Linux, Odoo, Github, ReactJS, NodeJS, ExpressJS, Odoo/owl, Qunit, JUnit, ORM
+                            Linux, Odoo, Github, ReactJS, NodeJS, ExpressJS, Odoo/owl, Qunit, JUnit, ORM, Git
                         </span>
                     </li>
                     <li className="item">
                         <h2>Cloud Technologies/Libraries</h2>
                         <span>
-                            Microsoft Azure, Odoo Sh, ORM, Agile, Docker, Kubernetes, keras, Surprise, Scikit-learn, Numpy, Pandas, Seaborn
+                            Microsoft Azure, Odoo Sh, ORM, Agile, TDD, Docker, Kubernetes, keras, Surprise, Scikit-learn, Numpy, Pandas, Seaborn
                         </span>
                     </li>
                     <li className="item">
