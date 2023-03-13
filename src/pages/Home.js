@@ -7,11 +7,11 @@ import EmailIcon from "@material-ui/icons/Email"
 const Home = () => {
     return (
         <div className="home">
-            <div className="photo">
+            {/* <div className="photo">
                 <img className="my-image" src={window.location.origin + '/20220821_152113__01.jpg'} alt="" height="200px"/>
-            </div>
+            </div> */}
             <div className="about">
-                <div>
+                <div className="typewriter">
                     <h1 className="typed">Hi, My Name is Shahnawaz Idariya</h1>
                 </div>
                 <div className="prompt">

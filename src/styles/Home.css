@@ -9,11 +9,11 @@
     width: 100%;
     /* height: 60vh; */
     /* height: calc(150vh - 100px); */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
     background-color: #21325e;
     /* background-color: #454545; */
     color: #f0f0f0;
@@ -31,8 +31,8 @@
 
 .about {
     width: 100%;
-    /* height: calc(100vh - 500px); */
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
+    /* height: calc(100vh - 200px); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,6 +85,8 @@
 }
 
 .typed {
+    width: auto;
+    /* display: inline-block; */
     color: #e9d35b;
     overflow: hidden;
     border-right: .15em solid #ddd;
@@ -104,13 +106,27 @@
     100% {border-right-color: transparent}
 }
 
+@media only screen and (max-width: 830px) {
+    .typed {
+        margin-top: 10px;
+        font-size: 30px;
+        width: 80%;
+        white-space: normal;
+        animation: none !important;
+        border-right: none !important;
+    }
+
+    .typewriter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .about h2 {
         font-size: 40px;
-    }
-
-    .typed {
-        font-size: 30px;
     }
 
     .about .prompt {
