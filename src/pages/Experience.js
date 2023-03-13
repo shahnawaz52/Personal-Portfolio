@@ -5,7 +5,7 @@ import WorkIcon from "@material-ui/icons/Work";
 
 const Experience = () => {
     return (
-        <div classname="experience">
+        <div className="experience">
             <VerticalTimeline lineColor="#3e497a">
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
