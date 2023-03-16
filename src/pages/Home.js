@@ -39,13 +39,13 @@ const Home = () => {
                     <li className="item">
                         <h2>Tools/Frameworks</h2>
                         <span>
-                            Linux, Odoo, Github, ReactJS, NodeJS, ExpressJS, Odoo/owl, Qunit, JUnit, ORM, Git
+                            Linux, Odoo, Github, ReactJS, NodeJS, ExpressJS, Odoo/owl, Qunit, JUnit, ORM API, Git
                         </span>
                     </li>
                     <li className="item">
                         <h2>Cloud Technologies/Libraries</h2>
                         <span>
-                            Microsoft Azure, Odoo Sh, ORM, Agile, TDD, Docker, Kubernetes, keras, Surprise, Scikit-learn, Numpy, Pandas, Seaborn
+                            Microsoft Azure, Odoo Sh, ORM, Agile, TDD, Docker, Kubernetes, keras, Surprise, Scikit-learn, Numpy, Pandas, Tensorflow, keras
                         </span>
                     </li>
                     <li className="item">

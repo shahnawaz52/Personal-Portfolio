@@ -62,7 +62,9 @@ const Experience = () => {
                     <h4 className="vertical-timeline-element-subtitle">
                         Gandhinagar, Gujarat
                     </h4>
-                    <p>Creating new modules for the Odoo platform, customizing existing modules, managing databases for the backend of the application, and addressing change requests for previously developed modules</p>
+                    <p>Creating new business modules for the Odoo platform, customizing existing modules,
+                        managing databases using ORM API for the backend of the application,
+                        and addressing change requests for previously developed modules such as sales, invoice, helpdesk, point of sale, timesheet, planning</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement

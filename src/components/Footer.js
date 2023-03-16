@@ -8,10 +8,10 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="socialMedia">
-                <IconButton component="a" href="https://www.linkedin.com/in/shahnawaz-idariya-6b6223189/" target="_blank" >
+                <IconButton component="a" href="https://www.instagram.com/its_.shan/" target="_blank" >
                         <InstagramIcon className="icon" />
                     </IconButton>
-                <IconButton component="a" href="https://www.linkedin.com/in/shahnawaz-idariya-6b6223189/" target="_blank" >
+                <IconButton component="a" href="https://m.facebook.com/shahnawaz.idariya.1/" target="_blank" >
                     <FacebookIcon className="icon" />
                 </IconButton>
             </div>
