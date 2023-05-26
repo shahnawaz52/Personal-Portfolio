@@ -1,6 +1,7 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,4 +26,26 @@
 .project svg {
     font-size: 60px;
     color: #3e497a;
+}
+
+.upvotes-section {
+    width: 100%;
+}
+
+.upvotes-section button {
+    margin-left: 50px;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #3e497a;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.upvotes-section p {
+    margin-left: 50px;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
